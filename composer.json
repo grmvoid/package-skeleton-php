@@ -3,17 +3,20 @@
     "description": "Boilerplate PHP library.",
     "license": "MIT",
     "type": "library",
-    "support": {
-        "issues": "https://github.com/nuldark/boilerplate-php-library/issues",
-        "source": "https://github.com/nuldark/boilerplate-php-library"
-    },
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Dominik Szamburski",
+            "email": "dominikszamburski99@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=8.2"
     },
     "require-dev": {
-        "ionbytes/coding-standard": "^1.0",
-        "phpstan/phpstan": "^2.0.x-dev",
-        "phpunit/phpunit": "^11.2-dev"
+        "friendsofphp/php-cs-fixer": "dev-master",
+        "phpstan/phpstan": "2.0.x-dev",
+        "phpunit/phpunit": "^11.4.x-dev"
     },
     "minimum-stability": "dev",
     "autoload": {
@@ -27,29 +30,10 @@
         }
     },
     "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
-        },
         "optimize-autoloader": true,
         "platform": {
             "php": "8.2.15"
         },
         "sort-packages": true
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
-    "scripts": {
-        "check": [
-            "@phpcs",
-            "@phpstan",
-            "@phpunit"
-        ],
-        "phpcbf": "phpcbf",
-        "phpcs": "phpcs",
-        "phpstan": "phpstan analyze",
-        "phpunit": "phpunit --colors=always"
     }
 }
