@@ -1,5 +1,5 @@
 {
-    "name": "nuldark/boilerplate-php-library",
+    "name": "sxbrsky/package-skeleton",
     "description": "Boilerplate PHP library.",
     "license": "MIT",
     "type": "library",
