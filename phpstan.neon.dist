@@ -1,6 +1,16 @@
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - phpstan-baseline.neon
+
 parameters:
-	tmpDir: .phpstan.cache
-	level: max
-	treatPhpDocTypesAsCertain: false
-	paths:
-		- src
+    level: max
+
+    paths:
+        - src/
+
+    excludePaths:
+        - */vendor/
+
+    checkImplicitMixed: true
+    checkBenevolentUnionTypes: true
+    treatPhpDocTypesAsCertain: false

@@ -1,11 +1,11 @@
-# package-skeleton
+# :package_name
 
 <div align="center">
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/sxbrsky/php-package-skeleton/ci.yml)
-![Packagist Downloads](https://img.shields.io/packagist/dt/sxbrsky/package-skeleton)
-![Packagist Version](https://img.shields.io/packagist/v/sxbrsky/package-skeleton)
-![Packagist License](https://img.shields.io/packagist/l/sxbrsky/package-skeleton)
+![Packagist Downloads](https://img.shields.io/packagist/dt/:vendor/:package_name)
+![Packagist Version](https://img.shields.io/packagist/v/:vendor/:package_name)
+![Packagist License](https://img.shields.io/packagist/l/:vendor/:package_name)
 
 </div>
 
@@ -13,7 +13,7 @@
 
 ## Resources
 
-- [Issues](https://github.com/sxbrsky/php-package-skeleton/issues/)
+- [Issues](https://github.com/:vendor/:package_name/issues/)
 - [Documentation]()
 
 ## License
